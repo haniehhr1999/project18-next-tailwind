@@ -12,7 +12,7 @@ const Story = () => {
             <p className="pt-12 font-bold">مشتریان خوشحال</p>
             <h3 className="text-3xl font-bold text-[#606C38]">بهترین تصمیم زندگی ما</h3>
             <p className='pt-8'>متنی ساختگی و بدون معنی است که برای امتحان فونت و یا پر کردن فضا در یک طراحی گرافیکی و یا صنعت چاپ استفاده میشود. طراحان وب و گرافیک از این متن برای پرکردن</p>
-            <button className="bg-[#606C38] mt-8 rounded-md py-2 px-4 text-white">خانه خود را پیدا کنید</button>
+            <button className="bg-[#606C38] hover:bg-[#283618] duration-500  mt-8 rounded-md py-2 px-4 text-white">خانه خود را پیدا کنید</button>
         </div>
     </div>
     </>

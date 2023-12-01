@@ -11,7 +11,7 @@ const Intro = () => {
             <p className="pt-8">
                 اگر طراح بخواهد دنبال متن های مرتبط بگردد تمرکزش از روی کار اصلی برداشته میشود و اینکار زمان بر خواهد بود. همچنین طراح به دنبال این است که پس از ارایه کار نظر دیگران را در مورد طراحی جویا شود و نمی‌خواهد افراد روی متن های موجود تمرکز کنند.
             </p>
-            <button className="bg-[#606C38] mt-8 rounded-md py-2 px-4 text-white">املاک ما را مشاهده کنید</button>
+            <button className="bg-[#606C38] hover:bg-[#283618] duration-500  mt-8 rounded-md py-2 px-4 text-white">املاک ما را مشاهده کنید</button>
         </div>
         <div className="left">
             <img className="w-full" src='img/build.png' alt=""/>

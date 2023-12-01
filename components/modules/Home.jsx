@@ -1,6 +1,7 @@
+import Link from 'next/link'
 import React from 'react'
 
-const Home = ({img , meterage , roomCount , price , title}) => {
+const Home = ({img , id , meterage , roomCount , price , title}) => {
   return (
     <>
         <div className="rounded-md overflow-hidden bg-[#FEFAE0]">
@@ -13,7 +14,9 @@ const Home = ({img , meterage , roomCount , price , title}) => {
                 <p>{meterage} متر مربع</p>
                 <p>{price} میلیون تومان</p>
             </div>
-            <button className="rounded-md w-full text-white bg-[#606C38] py-2 px-4">مشاهده ملک</button>
+            <Link href={`houses/${id}`}>
+            <button className="hover:bg-[#283618] duration-500 rounded-md w-full text-white bg-[#606C38] py-2 px-4">مشاهده ملک</button>
+            </Link>
             </div>
         </div>
     </>

@@ -1,5 +1,11 @@
-import React from 'react'
-import { FaHome  } from "react-icons/fa";
+import React                from 'react'
+import { FaHome  }          from "react-icons/fa";
+import { GiMoneyStack }     from "react-icons/gi";
+import { BsFillHousesFill } from "react-icons/bs";
+import { FaRegBuilding }    from "react-icons/fa";
+import { FaPerson }         from "react-icons/fa6";
+
+
 
 const Features = () => {
   return (
@@ -18,7 +24,7 @@ const Features = () => {
             </div>
             <div>
                 <div className="flex items-center">
-                    <div>{<FaHome className="text-2xl me-3 text-[#DDA15E]" /> }</div>
+                    <div>{<BsFillHousesFill  className="text-2xl me-3 text-[#DDA15E]" /> }</div>
                     <h3 className="text-2xl text-[#606C38]">همه خانه ها در مکان های برتر </h3>
                 </div>
                 <p>
@@ -27,7 +33,7 @@ const Features = () => {
             </div>
             <div>
                 <div className="flex items-center">
-                    <div>{<FaHome className="text-2xl me-3 text-[#DDA15E]" /> }</div>
+                    <div>{<FaRegBuilding  className="text-2xl me-3 text-[#DDA15E]" /> }</div>
                     <h3 className="text-2xl text-[#606C38]">خانه جدید در یک هفته </h3>
                 </div>
                 <p>
@@ -37,7 +43,7 @@ const Features = () => {
             <div>
                 <div className="flex items-center">
                     <div>{<FaHome className="text-2xl me-3 text-[#DDA15E]" /> }</div>
-                    <h3 className="text-2xl text-[#606C38]">فقط بهترین خواص            </h3>
+                    <h3 className="text-2xl text-[#606C38]">فقط بهترین خواص </h3>
                 </div>
                 <p>
                     تا فقط به مشتری یا کار فرما نشان دهند که قالب طراحی شده بعد از اینکه متن در آن قرار میگرد چگونه خواهد بود و فونت ها و اندازه ها چگونه در نظر گرفته شده است.
@@ -45,7 +51,7 @@ const Features = () => {
             </div>
             <div>
                 <div className="flex items-center">
-                    <div>{<FaHome className="text-2xl me-3 text-[#DDA15E]" /> }</div>
+                    <div>{<GiMoneyStack className="text-2xl me-3 text-[#DDA15E]" /> }</div>
                     <h3 className="text-2xl text-[#606C38]">پرداخت های ایمن در بعدی </h3>
                 </div>
                 <p>
@@ -54,7 +60,7 @@ const Features = () => {
             </div>
             <div>
                 <div className="flex items-center">
-                    <div>{<FaHome className="text-2xl me-3 text-[#DDA15E]" /> }</div>
+                    <div>{<FaPerson className="text-2xl me-3 text-[#DDA15E]" /> }</div>
                     <h3 className="text-2xl text-[#606C38]">1% مشاوران املاک برتر</h3>
                 </div>
                 <p>
