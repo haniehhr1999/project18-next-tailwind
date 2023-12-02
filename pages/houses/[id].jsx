@@ -10,7 +10,7 @@ const SingleHome = ({img , id , meterage , roomCount , price , title}) => {
   const home = db.homes.find(home => home.id === Number(homeId))
 
   return (
-    <div className="md:px-32 py-12 grid grid-cols-5 gap-10">
+    <div className="md:px-32 py-12 grid grid-cols-5 gap-10 dynamic-body">
         <div className="col-span-2">
             <img className="rounded-md" src={home?.img} alt="" />
         </div>

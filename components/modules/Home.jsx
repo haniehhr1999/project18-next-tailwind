@@ -12,7 +12,7 @@ const Home = ({img , id , meterage , roomCount , price , title}) => {
                 <p>مالدیو</p>
                 <p>{roomCount} اتاق</p>
                 <p>{meterage} متر مربع</p>
-                <p>{price} میلیون تومان</p>
+                <p>{price.toLocaleString()}  تومان</p>
             </div>
             <Link href={`houses/${id}`}>
             <button className="hover:bg-[#283618] duration-500 rounded-md w-full text-white bg-[#606C38] py-2 px-4">مشاهده ملک</button>

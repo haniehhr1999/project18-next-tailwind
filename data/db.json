@@ -51,7 +51,7 @@
     {
       "id": 7,
       "title": "خانه ویلایی",
-      "img": "/img/house-1.jpeg",
+      "img": "/img/house-7.jpg",
       "roomCount": 5,
       "meterage": 300,
       "price": 2200000
@@ -59,10 +59,42 @@
     {
       "id": 8,
       "title": "خانه اجاره‌ای",
-      "img": "/img/house-2.jpeg",
+      "img": "/img/house-8.jpg",
       "roomCount": 3,
       "meterage": 200,
       "price": 5000000
+    },
+    {
+      "id": 9,
+      "title": "خانه اجاره‌ای",
+      "img": "/img/house-9.jpg",
+      "roomCount": 4,
+      "meterage": 180,
+      "price": 5500000
+    },
+    {
+      "id": 10,
+      "title": "باغ ویلا",
+      "img": "/img/house-10.jpg",
+      "roomCount": 3,
+      "meterage": 230,
+      "price": 2260000
+    },
+    {
+      "id": 11,
+      "title": "رهن خانه",
+      "img": "/img/house-11.jpg",
+      "roomCount": 4,
+      "meterage": 350,
+      "price": 9800000
+    },
+    {
+      "id": 12,
+      "title": "خانه فروشی",
+      "img": "/img/house-12.jpg",
+      "roomCount": 1,
+      "meterage": 315,
+      "price": 2300000
     }
   ]
 }

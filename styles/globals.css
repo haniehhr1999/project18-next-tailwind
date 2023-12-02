@@ -129,4 +129,7 @@ body{
     grid-row: 6 / -1;
 }
 /* End Gllery */
+.dynamic-body{
+    height: calc(100vh - 237px);
+}
 
