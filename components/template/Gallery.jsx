@@ -4,7 +4,7 @@ const Gallery = () => {
   return (
     <>
     <h2 className="text-center text-3xl font-bold py-10 text-[#606C38]">گالری تصاویر</h2>
-    <div className="gallery md:px-32">
+    <div className="gallery grid gap-1 md:gap-3 md:px-32">
         <figure className="gallery__box gallery__box-1">
             <img
                 src="img/gal-1.jpeg"

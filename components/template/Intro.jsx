@@ -5,7 +5,7 @@ import pic1 from '@/public/img/build.png'
 const Intro = () => {
   return (
     <>
-    <div className="md:px-32 grid grid-cols-2 gap-4">
+    <div className="md:px-32 px-8 grid grid-cols-1 md:grid-cols-2 gap-4">
         <div className="right">
             <h1 className="text-5xl pt-10 font-bold text-[#606C38]">املاک امپراطور</h1>
             <h3 className="pt-4">با خرید خانه نهایت آزادی را احساس کنید</h3>

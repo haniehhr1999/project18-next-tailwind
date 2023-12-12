@@ -12,7 +12,7 @@ const Features = () => {
     <>
     <div className="py-8">
         <h2 className="text-center text-3xl font-bold text-[#606C38] py-10">چرا املاک امپراطور؟</h2>
-        <div className="md:px-32 grid grid-cols-3 gap-8">
+        <div className="md:px-32 px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
                 <div className="flex items-center">
                     <div>{<FaHome className="text-2xl me-3 text-[#DDA15E]" /> }</div>

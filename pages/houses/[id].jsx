@@ -10,12 +10,12 @@ const SingleHome = ({img , id , meterage , roomCount , price , title}) => {
   const home = db.homes.find(home => home.id === Number(homeId))
 
   return (
-    <div className="md:px-32 py-12 grid grid-cols-5 gap-10 dynamic-body">
+    <div className="md:px-32 px-8 py-12 grid grid-cols-1 md:grid-cols-5 md:gap-10 dynamic-body">
         <div className="col-span-2">
             <img className="rounded-md" src={home?.img} alt="" />
         </div>
         <div className="col-span-3">
-            <h2 className="text-3xl pb-4">ملک شماره {home?.id} : {home?.title}</h2>
+            <h2 className="text-3xl pt-5 md:pt-0 pb-4">ملک شماره {home?.id} : {home?.title}</h2>
             <div>
               <span className='text-[#BC6C25]'>متراژ :</span>
                {home?.meterage} متر

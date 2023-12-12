@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <div className="md:px-32">
+      <div className="md:px-32 px-8">
           <div className="bg-[#DDA15E] my-8 flex rounded-md">
               <ul className="unstyled flex">
                   <li><Link className="inline-block text-lg px-6 text-white py-4 bg-transparent rounded-md hover:bg-[#BC6C25] duration-500" href="/">خانه</Link></li>
@@ -16,7 +16,7 @@ export default function App({ Component, pageProps }) {
       </div>
       <Component {...pageProps} />
       <footer className="md:px-32 bg-[#656d4a]">
-        <div className="flex justify-between py-8 text-white">
+        <div className="md:flex block justify-between py-8 text-white">
             <div className="text-center">خانه رویایی خود را پیدا کنید</div>
             <div className="text-center">برنامه اجاره خانه ها</div>
             <div className="text-center">با ما تماس بگیرید</div>

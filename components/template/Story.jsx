@@ -3,10 +3,10 @@ import React from 'react'
 const Story = () => {
   return (
     <>
-    <div className="md:px-32 pt-12 grid grid-cols-2 gap-4">
-        <div className="left p-20 relative">
+    <div className="md:px-32 px-8 pt-12 grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="left relative">
             <img className="rounded-md w-4/5" src="img/story-1.jpeg" alt=""/>
-            <img className="rounded-md w-1/2 absolute left-7 top-0" src="img/story-2.jpeg" alt=""/>
+            <img className="rounded-md w-1/2 absolute left-7 md:top-0 -top-10" src="img/story-2.jpeg" alt=""/>
         </div>
         <div className="right ">
             <p className="pt-12 font-bold">مشتریان خوشحال</p>
